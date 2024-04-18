@@ -18,6 +18,11 @@ body {
     text-align: justify;
 }
 
+#logo-MT{
+    width: 100%;
+    margin-top: 3%;
+}
+
 #content-logo{
     margin-bottom: 10%;
     margin-right: 7%;
@@ -28,6 +33,24 @@ body {
     border-radius: 50%;
     border: 3px solid white;
     padding: 5%;
+}
+
+#logo-Classroom{
+    width: 100%;
+    margin: 0;
+}
+
+#content-logo-classroom{
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+#container-logo-classroom{
+    background: linear-gradient(#965ad8, #3b2b77);
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 3%;
+    width: 20%;
 }
 
 .accordion-item {
@@ -50,10 +73,18 @@ body {
     }
     #content-logo{
         margin-right: -50%;
+        width: 20% !important;
     }
 }
 
 @media (max-width: 580px) {
+    #content-logo{
+        width: 20% !important;
+    }
+}
+
+@media (max-width: 1200px) and  (min-width: 800px){
+
     #content-logo{
         width: 20% !important;
     }
