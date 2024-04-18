@@ -30,6 +30,19 @@ body {
     padding: 5%;
 }
 
+.accordion-item {
+    background-color: #965ad8; /* Cambia el color de fondo según tu preferencia */
+}
+
+/* Cambia el color de fondo del acordeón cuando está abierto */
+.accordion-item.show {
+    background-color: #965ad8; /* Cambia el color de fondo según tu preferencia */
+}
+
+.list-group{
+    --bs-list-group-bg: #fff0;
+}
+
 
 @media (min-width: 1200px) {
     #img-prog{
