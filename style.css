@@ -73,4 +73,26 @@ body {
     .m-5-mobile {
         margin: 0 !important; /* Eliminar márgenes en dispositivos móviles */
     }
+
+    .m-mobile{
+        margin: 10px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .telex-regular {
+        font-size: 4rem !important; /* Ajusta el tamaño del texto para dispositivos móviles */
+    }
+}
+
+@media (max-width: 560px) {
+    .telex-regular {
+        font-size: 2rem !important; /* Ajusta el tamaño del texto para dispositivos móviles */
+    }
+}
+
+@media (max-width: 300px) {
+    .telex-regular {
+        font-size: 1rem !important; /* Ajusta el tamaño del texto para dispositivos móviles */
+    }
 }
